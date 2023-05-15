@@ -1,0 +1,180 @@
+:root {
+  --header-font: rigid-square;
+  --main-font: yrsa;
+  --button-color: #31439c;
+  --method-detail-color: #feb51e;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--header-font);
+}
+
+h1 {
+  font-size: 3.157rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.369rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.777rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.333rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 30px;
+  font-family: rigid-square;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 22.5rem;
+  height: 37.5rem;
+  /* background: rgb(239, 238, 238); */
+  background: #31439c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.recent-tips{
+  position: fixed;
+  margin: 3rem 9.5rem 0rem 0rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+section ul {
+  margin: 0;
+  margin-top: 3rem;
+  padding: 0.2em;
+  list-style-type: none;
+  flex-grow: 2;
+  width: 18em;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+section ul > li {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-family: yrsa;
+  color: white;
+}
+
+section form {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  width: 18rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+section form input[type="text"] {
+  margin: 0;
+  padding: 0 1rem;
+  border: none;
+  height: 4rem;
+  flex-grow: 2;
+  border: 0;
+  outline: none;
+  font-size: 0.75rem;
+    
+}
+
+section form ::placeholder,
+section form input[type="text"] {
+  color: black;
+  font-family: yrsa;
+}
+
+section form > button {
+  padding: 0 0.6rem 0 0.4rem;
+  background: #feb51e;
+  border: 0;
+  outline: none;
+  transition: 0.2s;
+  height: 2rem;
+  font-family: rigid-square;
+  font-size: 0.75rem;
+  font-weight: 600;
+}

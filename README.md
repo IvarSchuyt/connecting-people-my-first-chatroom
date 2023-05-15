@@ -15,8 +15,13 @@
 
 ## Beschrijving
 
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
+Chatroom gebaseerd op de huisstijl van Visual Thinking.
+### Mijn chatroom
+![image](https://github.com/IvarSchuyt/connecting-people-my-first-chatroom/assets/112855849/8abd19f6-5f52-42d7-9033-7147ce8edcf9)
+
+### Inspiratie van het prototype
+![image](https://github.com/IvarSchuyt/connecting-people-my-first-chatroom/assets/112855849/07e943e1-4c34-46c5-8f75-1d140863dd4d)
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Gebruik
